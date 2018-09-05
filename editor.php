@@ -106,13 +106,13 @@
            <?php echo $option ;?> 
           </select> 
   <input id="url_id" type="text" class="form-control" readonly="On" value=""> 
-  <select style="border:1px dashed black;font-size: 12px;font-weight: 900;" class="form-control" id="redirectSelect">
+  <select style="font-size: 13px;font-weight: 900;" class="form-control" id="redirectSelect">
   	<option style="text-align: center;font-size: 12px">Görünüşü dəyişdir</option>
     <option style="font-weight: 900;font-size: 12px;" value="theme=light">Sadə</option>
     <option style="font-weight: 900;font-size: 12px;" value="theme=dark">Tünd</option>
   </select>
   </div>
-       <p id="statusLine"style="text-align: center;color:red;margin-top: -10px;"></p>
+       <p id="statusLine"style="text-align: center;color:white;margin-top: -10px;"></p>
   </div>
   </div>
     <script src="firebase.js"></script>
