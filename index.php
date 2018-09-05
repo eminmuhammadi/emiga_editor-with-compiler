@@ -3,8 +3,8 @@
 
 							     /* Config area */
 
-/*     Google ReCaptcha         */ $data_sitekey="6LchX24UAAAAAFfB9qhBx5REUdX5zQSPPpEf-n4V";
-/*     Uri (no sllash)          */ $uri="https://compiler.linkedit.ml";
+/*     Google ReCaptcha         */ $data_sitekey=" ";
+/*     Uri (no sllash)          */ $uri=" ";
 /*     Welcome message          */ $welcome="Developed by Emin Muhammadi";
 /*     Errors Show(1-Yes 0-No)  */ ini_set("display_errors",0); 
 
