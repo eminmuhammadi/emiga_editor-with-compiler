@@ -328,6 +328,7 @@ $(document).ready(function() {
     lineNumbers: true,
     indentUnit: 4,
     indentWithTabs: true,
+    theme:'3024-night',
     showCursorWhenSelecting: true,
     matchBrackets: true,
     autoCloseBrackets: true,
@@ -342,10 +343,12 @@ $(document).ready(function() {
 
   inputEditor = CodeMirror(document.getElementById("inputEditor"), {
     lineNumbers: true,
+    theme:'3024-night',
     mode: "plain"
   });
   outputEditor = CodeMirror(document.getElementById("outputEditor"), {
     readOnly: true,
+    theme:'3024-night',
     mode: "plain"
   });
 

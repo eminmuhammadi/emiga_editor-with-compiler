@@ -31,7 +31,13 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
-      
+	<style type="text/css">
+    body{font-family: 'Lora', serif;}
+    .borders{border:1px solid #f3f3f3;box-shadow:0 .25rem .75rem rgba(0,0,0,.05);
+	padding-bottom:20px;margin-top:10px;margin-bottom:10px;}
+    .card{font-family: 'Press Start 2P', cursive;font-size:11px;}
+    html{font-size:14px}@media (min-width:768px){html{font-size:16px}}.container{max-width:960px}.card-deck .card{min-width:220px}.border-top{border-top:1px solid #e5e5e5}.border-bottom{border-bottom:1px solid #e5e5e5}.box-shadow{box-shadow:0 .25rem .75rem rgba(0,0,0,.05)}
+    </style>       
     <meta property="og:locale" content="AZ">
     <meta property="og:locale:alternate" content="TR" />
     <meta property="og:type" content="website">
@@ -44,12 +50,14 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta name="twitter:title" content="LINKEDIT | Onlayn əməkdaşlıq sahəsi ">
     <meta name="twitter:image" content="/img/full-image.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<style type="text/css">
-    body{font-family: 'Lora', serif;}
-    .borders{border:1px solid #f3f3f3;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	padding-bottom:20px;margin-top:10px;margin-bottom:10px;}
-    .card{font-family: 'Press Start 2P', cursive;font-size:11px;}
-</style>  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124804614-1" type="text/javascript"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124804614-1');
+</script> 
   </head>
 
   <body>
@@ -175,11 +183,12 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h1 class="display-4">Adımı necə dəyişə bilərəm ?</h1>
-      <p class="lead">Editləmə səhifəsində *Adınızı daxil edin görəcəksiniz. Sizə uyğun olan adın üzərinə klikləyərək adınızı dəyişə bilərsiniz. Adınızı istədiyiniz anda dəyişə bilərsiniz</p>
+      <p class="lead">Editləmə səhifəsində <span style="color:red;font-weight: 600;">*Adınızı daxil edin</span> görəcəksiniz. Sizə uyğun olan adın üzərinə klikləyərək adınızı dəyişə bilərsiniz. Adınızı istədiyiniz anda dəyişə bilərsiniz</p>
     </div> 
         </br>
          </br>
-       <p style="margin-bottom:30px;"> &copy; <?php echo date("Y");?>. EmiGa . Bütün qanunlar qorunur.</p>
+       <p style="margin-bottom:30px;"> &copy; <?php echo date("Y");?>. EmiGa . Bütün qanunlar qorunur.
+       	<a href="https://www.linkedit.ml">[Linkedit]</a></p></p>
       </footer>
     </div>
 
