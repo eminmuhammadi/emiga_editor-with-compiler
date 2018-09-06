@@ -177,6 +177,5 @@
       document.execCommand("copy");
     }
   </script>
-
 </body>
 </html>
