@@ -105,12 +105,11 @@
          <select style="display: none;" class="form-control" id="selectLanguageBtn">
            <?php echo $option ;?> 
           </select> 
-  <input id="url_id" type="text" class="form-control" readonly="On" value=""> 
-  <select style="font-size: 13px;font-weight: 900;" class="form-control" id="redirectSelect">
-  	<option style="text-align: center;font-size: 12px">Görünüşü dəyişdir</option>
-    <option style="font-weight: 900;font-size: 12px;" value="theme=light">Sadə</option>
-    <option style="font-weight: 900;font-size: 12px;" value="theme=dark">Tünd</option>
+  <select class="form-control" style="font-size:12px;text-align: center;" id="redirectSelect">
+    <option <?php if($theme=="default"){echo "selected";}?> style="<?php if($theme=="default"){echo "color:red;";}?>font-size: 12px;" value="theme=light">Sadə stil</option>
+    <option <?php if($theme=="3024-night"){echo "selected";}?> style="<?php if($theme=="3024-night"){echo "color:red;";}?>font-size: 12px;" value="theme=dark">Tünd stil</option>
   </select>
+  <input id="url_id" type="text" class="form-control" readonly="On" value=""> 
   </div>
        <p id="statusLine"style="text-align: center;color:white;margin-top: -10px;"></p>
   </div>
